@@ -4,9 +4,17 @@ services:
     image: heineart:latest
     container_name: heineart
     restart: unless-stopped
-    # Only reachable from the VPS itself; nginx proxies the public traffic.
+    # Handy for testing from the VPS itself (e.g. `tailscale serve 8090`).
     ports:
       - "127.0.0.1:8090:8090"
     volumes:
       # Database, uploaded images and backups. Back this folder up.
       - ./pb_data:/app/pb_data
+    networks:
+      - web
+
+networks:
+  # Created by the scottstone.ca site, whose nginx owns ports 80/443 and
+  # proxies pottedpainter.ca to this container by name.
+  web:
+    external: true

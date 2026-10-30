@@ -23,7 +23,7 @@ brand/                           business cards and the hand-lettered wordmarks 
 
 ## First-time setup on the VPS
 
-You need Docker (with the compose plugin), nginx and certbot.
+You need Docker with the compose plugin.
 
 ```sh
 # 1. Get the code
@@ -39,15 +39,15 @@ docker compose exec heineart /app/pocketbase superuser upsert you@example.com 'a
 docker run --rm --network container:heineart -v "$PWD":/work -w /work \
   -e PB_URL=http://127.0.0.1:8090 -e PB_EMAIL=you@example.com -e PB_PASSWORD='a-long-password' \
   node:22-alpine node migration/import.mjs
-
-# 5. nginx + HTTPS. Get the certificate first (certonly never edits nginx files),
-#    then point nginx at the config in this folder with a symlink.
-sudo certbot certonly --nginx -d pottedpainter.ca -d www.pottedpainter.ca
-sudo ln -s "$PWD/deploy/nginx-pottedpainter.conf" /etc/nginx/sites-enabled/pottedpainter.conf
-sudo nginx -t && sudo systemctl reload nginx
 ```
 
-Before step 5 works, point the domain's DNS `A` (and `AAAA`) records for `pottedpainter.ca` and `www.pottedpainter.ca` at the VPS, and make sure ports 80 and 443 are open in the firewall. Certbot renews the certificate on its own; `sudo certbot renew --dry-run` checks that renewal works.
+Public traffic for `pottedpainter.ca` goes through Cloudflare to the nginx in the [scottstone.ca site](https://github.com/scottastone/scottastone.github.io), which owns ports 80/443 on this server and proxies to this container over the shared `web` Docker network. That network is created by the scottstone.ca compose file, so bring that site up first.
+
+To set up the domain:
+
+1. In Cloudflare, add `pottedpainter.ca`, set DNS `A` records for `@` and `www` to the server's IP (proxied, orange cloud), and set **SSL/TLS** to **Full (strict)**.
+2. Under **SSL/TLS → Origin Server**, create an origin certificate for `pottedpainter.ca, *.pottedpainter.ca`. Save it on the server in the scottstone.ca folder as `certs/pottedpainter/origin.pem` and the key as `certs/pottedpainter/origin.key`, and make both readable (`chmod 644`), since nginx's worker process loads them.
+3. In the scottstone.ca folder: `git pull && docker compose up -d --build`. Then here: `docker compose up -d`.
 
 The import is safe to re-run; it skips anything already there. Once the new site is live and checked, the Wix plan can be cancelled.
 
