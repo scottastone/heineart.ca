@@ -1,0 +1,4 @@
+pb_data/
+server/pocketbase
+node_modules/
+.DS_Store

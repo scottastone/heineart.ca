@@ -1,0 +1,7 @@
+.git
+pb_data
+server/pocketbase
+migration
+brand
+deploy
+*.md

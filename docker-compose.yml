@@ -1,0 +1,12 @@
+services:
+  heineart:
+    build: .
+    image: heineart:latest
+    container_name: heineart
+    restart: unless-stopped
+    # Only reachable from the VPS itself; nginx proxies the public traffic.
+    ports:
+      - "127.0.0.1:8090:8090"
+    volumes:
+      # Database, uploaded images and backups. Back this folder up.
+      - ./pb_data:/app/pb_data

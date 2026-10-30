@@ -1,0 +1,2756 @@
+{
+ "artists": [
+  {
+   "slug": "brenda",
+   "name": "Brenda Heine",
+   "tagline": "Watercolours & pottery",
+   "bio": "<p>Despite having a father who is an accomplished artist, Brenda somehow went most of her life without ever picking up a pencil or paintbrush. Instead, she went the academic route, got her MD and was quite content with her medical practice and raising her family.</p>\n<p>This changed in late 2015 when she was introduced to watercolour. It was quite by accident and there certainly was no intent to actually paint. However, she was immediately captivated by the colours and the way the pigment moved on the paper. She has been painting and learning ever since. She has participated in solo and group shows and has even won a few awards for her paintings.</p>\n<p>But the very best part is the fact that she gets to share this passion and continue to learn from her dear dad.</p>",
+   "accent": "#9b2226",
+   "email": "bheine.art@gmail.com",
+   "instagram": "https://www.instagram.com/bheine.art/",
+   "sort": 1,
+   "cover": {
+    "wix": "9f3a98_dc355494528d4cc1a41c77eb05733c6d~mv2_d_2853_4311_s_4_2.jpeg"
+   },
+   "wordmark": {
+    "file": "brand/brenda-heine.png"
+   },
+   "showcase": [
+    {
+     "wix": "9f3a98_17771875cd8b4006b88b8a10c2939056~mv2.jpeg"
+    },
+    {
+     "wix": "9f3a98_d81d54e228244328bc720045abff8849~mv2.jpg"
+    },
+    {
+     "wix": "9f3a98_4e587c8d8afe48a7827d7c6bf36e7a0b~mv2.jpg"
+    },
+    {
+     "wix": "9f3a98_5b1871aab3ff4396b7e008941322dd9a~mv2_d_5279_2032_s_2.jpg"
+    },
+    {
+     "wix": "9f3a98_55c1329c04064bbc9f95b80d37bac99c~mv2_d_4629_3441_s_4_2.jpg"
+    },
+    {
+     "wix": "9f3a98_09518d40da9e43aeaeb41fffa01b7d88~mv2.jpeg"
+    },
+    {
+     "wix": "9f3a98_bbc7de47f5094f5887920f0d46647198~mv2.jpg"
+    },
+    {
+     "wix": "9f3a98_1d82e025c62a46cd9b97e49b62268f4a~mv2.jpeg"
+    },
+    {
+     "wix": "9f3a98_30c9bf9fac31407b8058498d7e3e6fdb~mv2.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "jerry",
+   "name": "Jerry Heine",
+   "tagline": "Artist Emeritus · Watercolour",
+   "bio": "<p>An artist’s artist, Jerry Heine has mentored many Alberta artists through his work at the University of Alberta, Faculty of Extension Art Diploma Program.</p>\n<p>He studied art at the University of Alberta, graphic art at NAIT and at the Washington School of Art. He was an instructor with the Faculty of Extension from 1989 to 2016, and has had over 35 solo art exhibitions, both nationally and internationally. He has signature status with several art groups, including the North West Watercolor Society of U.S.A. Jerry has also curated art exhibitions, taught community art workshops, engaged in art critiques, and adjudicated and selected art for a variety of art clubs and schools across Alberta. Until just recently, he was represented in Alberta by the Bugera Matheson Gallery in Edmonton and the Mountain Gallery in Jasper.</p>",
+   "accent": "#2c4a6e",
+   "email": "bheine.art@gmail.com",
+   "sort": 2,
+   "cover": {
+    "wix": "9f3a98_7f981533c9aa4954a44c2b3039f48304~mv2.jpg"
+   },
+   "showcase": [
+    {
+     "wix": "9f3a98_52287e659c364f54b27aed41c0e1cd7f~mv2.jpg"
+    },
+    {
+     "wix": "9f3a98_e08eb6d7b55d453c960e7e1b93da6ea7~mv2.jpg"
+    },
+    {
+     "wix": "9f3a98_7f981533c9aa4954a44c2b3039f48304~mv2.jpg"
+    },
+    {
+     "wix": "9f3a98_45474432fc1141feae1033ec1f4637d2~mv2.jpg"
+    },
+    {
+     "wix": "9f3a98_90a1ec7e2b164199b0fe3f0755405776~mv2.jpg"
+    },
+    {
+     "wix": "9f3a98_256f9a7559c64b4ab4aa63c4647288e1~mv2.jpg"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "artist": "brenda",
+   "slug": "watercolours",
+   "title": "Watercolours",
+   "sort": 1,
+   "published": true,
+   "wordmark": {
+    "file": "brand/brenda-watercolors.png"
+   },
+   "pricing_note": "Prices refer to unframed paintings."
+  },
+  {
+   "artist": "brenda",
+   "slug": "pottery",
+   "title": "Pottery",
+   "sort": 2,
+   "published": true,
+   "wordmark": {
+    "file": "brand/brenda-pottery.png"
+   },
+   "intro": "<p>Functional pottery for everyday use: mugs, bowls, platters, jars and more, each piece shaped, carved and glazed by Brenda. Every piece is one of a kind.</p><p>Interested in a piece? Get in touch and Brenda will let you know what's available.</p>"
+  },
+  {
+   "artist": "brenda",
+   "slug": "commissions",
+   "title": "Commissions",
+   "sort": 3,
+   "published": true,
+   "intro": "<p>Portraits of people, pets and treasured places. Get in touch for more information about commissions.</p>"
+  },
+  {
+   "artist": "brenda",
+   "slug": "mosaics",
+   "title": "Mosaics",
+   "sort": 4,
+   "published": true,
+   "intro": "<p>Stained glass and tesserae mosaics, several based on original paintings by Jerry Heine.</p>"
+  },
+  {
+   "artist": "brenda",
+   "slug": "art-cards",
+   "title": "Art Cards",
+   "sort": 5,
+   "published": true,
+   "intro": "<p>Original hand-painted 5x7\" cards, with fine-art prints and envelopes available for many designs.</p>"
+  },
+  {
+   "artist": "jerry",
+   "slug": "paintings",
+   "title": "Paintings",
+   "sort": 1,
+   "published": true,
+   "pricing_note": "Prices refer to unframed paintings."
+  }
+ ],
+ "artworks": [
+  {
+   "section": "brenda/watercolours",
+   "title": "Overlooking Lake Windermere",
+   "size": "",
+   "price": "$825",
+   "status": "available",
+   "details": "Mounted on birch panel and framed",
+   "medium": "Watercolour",
+   "sort": 0,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ef0b6b950c71467fae795bfbeca1d882~mv2.jpg"
+   },
+   "featured": true
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Magpie",
+   "size": "12x12\"",
+   "price": "$350",
+   "status": "available",
+   "details": "Mounted on birch panel and framed",
+   "medium": "Watercolour",
+   "sort": 1,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_b460896a955443f786e7fe0a8dcacd6a~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Bertie and Bean",
+   "size": "22x15\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 2,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e141196a5bcc4577b596d894bc42b1de~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Portrait of a Grey Owl",
+   "size": "22x15\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 3,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_2cf8d0027f134b37ab92e4a96d4ae3f9~mv2.jpg"
+   },
+   "featured": true
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Fireweed",
+   "size": "15x22\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 4,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_efc8313ad12d43cba64de012eecb673a~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "All of Colours",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 5,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_8077f416b13d4f18bc417c9fc6cd9d64~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Junco",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 6,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a4c90e4faac747bbb0b296eedb7c32fe~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Along the West Coast Trail",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 7,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_b56b8e8c2c904220be5574011d2452d4~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Gerbera",
+   "size": "10x10\"",
+   "price": "$270",
+   "status": "available",
+   "details": "mounted on birch panel",
+   "medium": "Watercolour",
+   "sort": 8,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ba6b6349a180415eb5f8516063519b7f~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Fancy Tulips",
+   "size": "15x11\"",
+   "price": "$345",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 9,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_dcc8fc81c70c4e77979e30e9ded470fc~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Flowers, pears and a chicken",
+   "size": "18x14\"",
+   "price": "$650",
+   "status": "available",
+   "details": "mounted on a birch panel - ready to hang",
+   "medium": "Watercolour",
+   "sort": 10,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_06e7ff5b71454879bf0c3f780ec526e3~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Paddlers on Moraine Lake",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 11,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_69d17f0876e94fbda6b8972dd8bcd051~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Rocks and Water",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 12,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_1fe2ded700674fdb841a0c34e6538f08~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "A Trio of Elk",
+   "size": "15x22\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 13,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_2a071b4919734e85a67e8fd2edf6bfd9~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Kananaskis Fireweed",
+   "size": "11x15\"",
+   "price": "$345",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 14,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_508d14b8dc124d1399bc860dd95563cc~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Lovely Lady",
+   "size": "15x22\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 15,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_38fceb1fe88c4e9893a982ba9465705e~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Lunch Lake Minnewanka",
+   "size": "15x22\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 16,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_dc2b2746bcd1423686d45df287ba77d7~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Black Bear",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 17,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_7c00ccd712c0411690e8b0277a3f0767~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Larches, Mt. Temple and a Big Rock",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 18,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_cfdd440edc0541f5846947180e9adec4~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Lilies",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 19,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e66cc90b0de641e796e0d2004b1dd422~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Barb on Ha Ling",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 20,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e65dc57bd4474d45bdfc0ceb0c2d2dad~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "I am Cow",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 21,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ae8e7910c8264d1b8ac1a7cc112a6eed~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Near St John's",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 22,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_5e3f7230c4a845c08e5c0a983f4c7078~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Flowers in Vase",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 23,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_616233bc350e45f991895072a850d8ed~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Lilies and Pears",
+   "size": "15x22\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 24,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ef24f635214641118ea959b1f78d2218~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Portrait of a mule deer",
+   "size": "22x15\"",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 25,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_4e0f242cafa94cc2a468e6ffe3922000~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Memories of Hawaii",
+   "size": "11.5x29\"",
+   "price": "$875",
+   "status": "available",
+   "details": "Mounted on birch panel, ready to hang",
+   "medium": "Watercolour",
+   "sort": 26,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_5574c08065084640922a42db5091ca6f~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Near Evansburg",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 27,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_7648be6d6e1443c6a11192e6a7082a30~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "The Drowsy Chaperone",
+   "size": "15x22\"",
+   "price": "$80",
+   "status": "not_for_sale",
+   "details": "Original not for sale but 13x19\" giclee prints available ()",
+   "medium": "Watercolour",
+   "sort": 28,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_d4aa1a5f399b49a1b95eafb9b55fecba~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Tulip Tango",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 29,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_fbd6fe0f05fc4fbe826e01d92c6e575d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "First Time",
+   "size": "22x15\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 30,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_4fa078d683b5416ba7fd4147436bb06e~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "On Stage at the Citadel",
+   "size": "22x30\"",
+   "price": "$1100",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 31,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_49d4376006064d7c95af485d9f1302b7~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Dinosaur Punch",
+   "size": "22x30\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "Not for sale at present",
+   "medium": "Watercolour",
+   "sort": 32,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e7069760d3f24cd6adb4b895f8889fff~mv2.jpeg"
+   },
+   "featured": true
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Bon Voyage!",
+   "size": "15x22\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 33,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_51780d5740314bba817cb12b6e909f24~mv2_d_5045_3317_s_4_2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Aging Beauties",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 34,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_95c8ebbb41db4c038a7d6ae329360776~mv2_d_3118_4248_s_4_2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "Girl Power",
+   "size": "22x15\"",
+   "price": "$625",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 35,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_4e587c8d8afe48a7827d7c6bf36e7a0b~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "John",
+   "size": "18x12\"",
+   "price": "$525",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 36,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_788424fa1cab492e81b879e91a87ef4e~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/watercolours",
+   "title": "At the Beach",
+   "size": "11x15\"",
+   "price": "$345",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 37,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_4c780d6d6d6b42eab2fd1084e8bb470b~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "A special granddaughter",
+   "size": "19x13\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 0,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_91e58a4527c34d9694e593ee6d8e6d4b~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Beautiful Bronwyn",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 1,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_95e4854fb0ea47b6aeccde4daf3c806d~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "dear friend",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 2,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_3dfe7d9e45d94e4fa86c010e00092c7a~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Ponto",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 3,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_d0cf14592fb04307bfd529e7aeddb978~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "T.",
+   "size": "10x8\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 4,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_479d9fd167cb48d395ec84bc4afb0d83~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Dr. R at work",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 5,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_0cf4cb9a226041c399aaa6427dc51589~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "J and R",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 6,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e70076b97f0747048f9935d78eff4d15~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Oliver",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 7,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_65c35ac50a174c098457dd0c9785ba97~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "A",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 8,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_72f28edb94474ccba4cf4bd468d94c32~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Timmy",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 9,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_20be97af424e4636a5e1d9b305d46eec~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Poppy",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 10,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_dfa4644c24d24308886edbc0db1cc0d6~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Charlie",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 11,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_fd3c4756f059460e90813e6d91e6cf6a~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Flowers for sister #2",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 12,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a747d4a5a0684d2b865cfb7ec73d4c64~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Flowers for sister #1",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 13,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_5b2c9ca5606147768859d750d6c24dad~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Nico",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 14,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_c47b1b284c194542912397ba5ef50fb6~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Karen's Cat",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 15,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_1014025124774d37b16ee984316626a9~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Lovely Mom",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 16,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_c7a33395d5d340a49b701e0b9431140f~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Lovely Parents",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 17,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_1f2812493d9e485faecb251efaa6c1b1~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Nikko",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 18,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_9c98aa6fb6e8468885bce1470e18b195~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Happy Engagement!",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 19,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a5fab50933934e62b850808378931d42~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Happy Family",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 20,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_d1ed3955bc0d43fd99e51d9811fed433~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Man with Cigar",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 21,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_bdb4901acb3d49c0a0eea55e26322601~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Mr. B",
+   "size": "",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 22,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_c4b3c0f0d2794885a2823948d91a5d7b~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Happy Memories",
+   "size": "18x24\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 23,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_76ce4343017a4c3b9e9d637b2d4410be~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "A lovely sister",
+   "size": "15x11'",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 24,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_6acc36e125454e07b3d3935fcc7a2a81~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Couple of kids",
+   "size": "22x15\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 25,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_c7c467f714ac45b6a5b690ca10205715~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "A lovely family",
+   "size": "22x15\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 26,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_32554931fecd496dbdd373e5f540a87c~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Mr. C",
+   "size": "15x11\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 27,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_03643ca452c248f9bdb11f20b5f8c28f~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Parents",
+   "size": "22x15\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 28,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_d5f3b09872c4459fbb887ce3a3e7ba3d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Puppy Love",
+   "size": "15x11\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 29,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e266b67ef7f24f6da42d00aac3ebae8d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Loving Couple",
+   "size": "22x15\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 30,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a00d345f02ae49dc913ab1f9a24c8c0d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Still Life for Terrence",
+   "size": "11x34\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 31,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_74ecb12c62f3416d9330afcd81137fb4~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "The Boys",
+   "size": "15x22\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 32,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_15e88789738e41888163b8c3259bb999~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Bluejay on Fountain",
+   "size": "11x15\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 33,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_0ca8b78a344e4d2abd7e58b069c70c32~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "wedding card",
+   "size": "5x7\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 34,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_aa18cbbce9f148ebb328a8a759cfd392~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Esther's Mom",
+   "size": "15x11\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 35,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_6396577a0e11413a979b678345b32830~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Esther's Mom's Treasures",
+   "size": "15x11\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 36,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_214468a644a94f28a61f7b212c7608fb~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Tennis Friends",
+   "size": "15x22\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 37,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_887ddc18df0545f588da19b9f800cfb0~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Rufus",
+   "size": "11x15\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 38,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_861e4f13ada649ddbc944c2f992cb203~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Brad and Scott",
+   "size": "11x15\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 39,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_bb385cbf7b9b4ed888de3cc0274d18ef~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/commissions",
+   "title": "Old Fort Point",
+   "size": "15x22\"",
+   "price": "",
+   "status": "not_for_sale",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 40,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_55e4143f238f46b08fb819191568a784~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/mosaics",
+   "title": "Alpine Lake",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Stained glass and tesserae mosaic. 24x32\", framed. $845 Based on an original painting by Jerry Heine",
+   "medium": "",
+   "sort": 0,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_84598124094e4ee69d389ff5529f3883~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/mosaics",
+   "title": "Garden Plant Pillar",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Stained glass and tesserae mosaic on plaster pillar. 35\" tall, 11' diameter $250",
+   "medium": "",
+   "sort": 1,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_6ca0dd1dfddf49a9817bf39b165acca2~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/mosaics",
+   "title": "Colours of the Rainbow",
+   "size": "12.5x35\"",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "",
+   "sort": 2,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_59065b474f874c44881905ca49222bde~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/mosaics",
+   "title": "Autumn in the Mountains",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Stained glass and tesserae mosaic. 26x36\", framed. $990 Based on an original painting by Jerry Heine",
+   "medium": "",
+   "sort": 3,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_0cd1772eccaa47abb7f94cd975b9a2ec~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/mosaics",
+   "title": "Sunflowers",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "Stained glass and tesserae mosiac. 60x12\", framed. Based on an original painting by Jerry Heine",
+   "medium": "",
+   "sort": 4,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_1dd5ca34fff54ee9a3973617bc56a7dd~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Tulips",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card 5x7\" $35 Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 0,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_60fb99607e4a4225b4d30cabfe7c5199~mv2.png"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Sunflower2",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card $35 Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 1,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e5ecc4d33bd3441fbaf792af396e0dda~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Pink Gerbera",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "5x7\" prints $8 Original card 35$",
+   "medium": "",
+   "sort": 2,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_4136cb54b19b407a80bb9107f5ae454f~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Daisies",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 3,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_b614f8fa7b2e46379fd8916ffd563571~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Apple Blossom",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card 5x7\" SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 4,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a6680bd11f7c45cf84275f670921bb07~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Northern Roses",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card - $35",
+   "medium": "",
+   "sort": 5,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_99fa7106aff94a65ae957e9cea64021f~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Lilacs",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 6,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_9cf68187907d4d459316c40d360e1d1e~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Sunflower1",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 7,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_878fdb78db3a487c98f5579405abfe0c~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Daffodils",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card 5x7\" SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 8,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_db3ac559f22642ef83dd30b15f00f11d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Roses",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 9,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_34401d6e3f4a4f25b070e238874dff8d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Violin",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card 5x7\" $35 Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 10,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_2ae79f43154c4cf1bf581a1e8d0802d0~mv2.png"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Grand Piano",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card 5x7\" $35 Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 11,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_7278b990f937458cb5aef89e8de3b151~mv2.png"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Bighorn sheep",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card 5x7\" $35 Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 12,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_dd21f174caa14a13ad2bad14eb3baf27~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Mule Deer",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card 5x7\" $35 Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 13,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ee77d7cb63934835b972da54b9f9e2ba~mv2.png"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Golden Mantled Ground Squirrel",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "5x7\" prints $8 Original card 35$",
+   "medium": "",
+   "sort": 14,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_5a7a24014ced41268be913d94040ebc3~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Bald Eagle",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 15,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_4668e23b56464073a8651f2e638184d1~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Two Bears",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "5x7\" prints $8 Original card 35$",
+   "medium": "",
+   "sort": 16,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_9ab947a95f9b4ff29139816cdd124e8d~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Painted Lady",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original -SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 17,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_546170a09cd84094b3d70af11aa4a6d6~mv2_d_2072_1579_s_2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Gloria's Deer",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original -SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 18,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_8ffd280b58cd4bd5949a7a0de648f4c1~mv2_d_2477_1664_s_2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Snowshoe Hare",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card SOLD. Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 19,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_539792c1717248ee8ab3f89980e50b54~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Bluejay",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card SOLD Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 20,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_baf7a649abb94152aada80a1395e8a3d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Three Sisters",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "5x7\" prints $8 Original card 35$",
+   "medium": "",
+   "sort": 21,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_9e96a7961d8d4c79931e98c56acc1ea3~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Mountain Scene",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "5x7\" Original card 35$",
+   "medium": "",
+   "sort": 22,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_94d6f680ad3f4e24af2109d31a8190ee~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Canmore Engine Bridge",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "5x7\" prints $8 Original card 35$",
+   "medium": "",
+   "sort": 23,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ff009cee466c415fb60e776c6d17c40b~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Policeman's Creek",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "5x7\" prints $8 Original card 35$",
+   "medium": "",
+   "sort": 24,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_f77d058ac0a64531bf5d99739077fd05~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Winter Forest",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "5x7\" original card - 35$",
+   "medium": "",
+   "sort": 25,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e2dbf795e0e2408d82b590abb224394c~mv2.jpeg"
+   }
+  },
+  {
+   "section": "brenda/art-cards",
+   "title": "Canmore Main Street",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "Original card 5x7\" $35 Fine prints (5x7\") with envelope available for $8 each.",
+   "medium": "",
+   "sort": 26,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_7af1c39f2c114600adfc473a995b9b5b~mv2.png"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Peonies",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 0,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ae34c1256b5340d29a21c3d1a1e5fdac~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Rushing Water",
+   "size": "60x40\"",
+   "price": "$4800",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 1,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_aa27aa0dcdc94db0a27a2d3a2752d15f~mv2.jpg"
+   },
+   "featured": true
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Sunflowers #1",
+   "size": "22x30",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 2,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_762bb37a5de7429cba646d912ec3e9db~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Birch trees in Snow",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 3,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_9bccb26cf7484fb1990de0e78128a04a~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Garden with Snapdragons",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 4,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_2b5f793a1b664256ba71ab02ded22942~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Water Lilies",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 5,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_6f7b6aea7a23459d9c9c1443b92f3a1b~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Koi Pond",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 6,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_5566fa98e8d04f1faddf5739dd7249eb~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Waterfall and Flowers",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 7,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_d2194ed5e91d40b4a316b6b991670009~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Iris Garden",
+   "size": "22x30",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 8,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_671b20a7f68c43449d9490f337b5bfcd~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Alpine Lake",
+   "size": "",
+   "price": "",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 9,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_c42411d8ea184d5d8a357e1278cee4da~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Late Summer in the Rockies",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 10,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_00400f04f79549a98d085981fc4cda1c~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Orchids",
+   "size": "29x40\"",
+   "price": "$1800",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 11,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_4cbe978d0ec948d8b3c012d7bc6f30cd~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Peonies",
+   "size": "29x40\"",
+   "price": "$1800",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 12,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_73f66b80d34842969202eb53343afbe7~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Summer Flowers",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 13,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_7297ec73e8b541e3b9b8189df6e461a1~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Mill Creek #2",
+   "size": "22x30\"",
+   "price": "$1450",
+   "status": "available",
+   "details": "framed",
+   "medium": "Watercolour",
+   "sort": 14,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a81a6c2b54d6455babf4beba466c8119~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Mill Creek #1",
+   "size": "22x30\"",
+   "price": "$1450",
+   "status": "available",
+   "details": "framed",
+   "medium": "Watercolour",
+   "sort": 15,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_dee363d2c14b47968a4e72dfeff592ed~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Sunshine Meadows",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 16,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_46200603792244ef86781747465b3182~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Painted Ladies and Fish",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 17,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_1805fe2525514f87a0559ebdbaddb38a~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Approaching Lake Oesa",
+   "size": "30x22\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 18,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_02267d47849a445d873c0489d66c0f0e~mv2.jpeg"
+   },
+   "featured": true
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Red Leaves at Vermillion Lake",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 19,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ea89ebd4109e4e89a4a11eaba62f2559~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Horsedrawn Wagon at Ft Edmonton",
+   "size": "6.5x12\"",
+   "price": "$150",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 20,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_af93ad21a2e64aaf813d8926bc797fde~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Paintbrush at Thunderwater Lake",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 21,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a9608614f62f41008ab9b32c37f686f6~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Vermillion Lakes 2",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 22,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_3a5e5a9201a54bc19d23062a428529c3~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Vermillion Lakes",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 23,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_95bf41312bf44212af25fcd0cea89849~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Hiking towards High Lake",
+   "size": "15x11\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 24,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_d85e9e594e974b27bbc95f6ecd6a7007~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Still Life with Flowers",
+   "size": "15x11\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 25,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_3d39f46a4c204c838a483a648cc74360~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Near Warburg",
+   "size": "15x22\"",
+   "price": "$600",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 26,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_316dd4755ed3475a94fafa3b5e40a475~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Sunflowers",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 27,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_015cca2c17054d6886d64b8d21d3cedf~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Near Moon Lake in Winter",
+   "size": "22x30\"",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 28,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ff2568f76eff4309ae7dadafa7b9701d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Trees and Leaves",
+   "size": "30x40\"",
+   "price": "$2200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 29,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_f2e48af7adee4c97be22ef8ff198c6b6~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Tangled Creek",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 30,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_1142283ff47c449f8516801fce140a9f~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Moraine Lake",
+   "size": "7.5x10\"",
+   "price": "$140",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 31,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a2405da7a50e463684a57df982ac11aa~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Rocky Water",
+   "size": "12x40\"",
+   "price": "$900",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 32,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_2fb7e50046b443c3a295c0a520886209~mv2_d_5205_1565_s_2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Garden Peonies",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 33,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_c1ae7f13d14c4e85984dcc609dc2117e~mv2_d_5004_1834_s_2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Lake O'Hara Larches",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 34,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_45474432fc1141feae1033ec1f4637d2~mv2.jpg"
+   },
+   "featured": true
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Below Tangled Creek",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 35,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_dcbd565ae0e7486a86f661053e9d917a~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Misty Morning",
+   "size": "22x30\"",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 36,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_256f9a7559c64b4ab4aa63c4647288e1~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Tranquility",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 37,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_bcb28e75506b4ab4a9aad8572a7a6256~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "MacTaggert Sanctuary",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 38,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_494c4b5165bc4a93ac9ff7184c5bba99~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Farm House",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 39,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_aa650098a9c84bac89de4cac2ba69f6d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Alpine Hut, Lake O'Hara",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 40,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_60161e474bbe4f2ba84c5d61bd6b324b~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Near Ellerslie",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 41,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_cd0c2d7c97004f4383882fbbac31f52e~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Hayrack",
+   "size": "6.5x13\"",
+   "price": "$150",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 42,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_e84436974857484e883ac880a2f93b3b~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Fort Edmonton",
+   "size": "6.5x13\"",
+   "price": "$150",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 43,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_94c89194523f4096ba3fa6fd73fced17~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Thunderwater Lake",
+   "size": "6.5x12.5\"",
+   "price": "$150",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 44,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_4d6cda7b5c294e018ca413233bea1e18~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Approaching Jasper",
+   "size": "7x10.5\"",
+   "price": "$140",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 45,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_025ff95ea2c8488b97ef437ff9609044~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Kyoto",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 46,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_189a028c0f7b4380aa6acea4e56d65a2~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Fall",
+   "size": "",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 47,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_3ce4bda037164a6c8e526d2b8e51a83d~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Drug Store at Fort Edmonton",
+   "size": "7x10.5\"",
+   "price": "$150",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 48,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_0487d4f9bebf40878968403af4c52204~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Birch Trees",
+   "size": "7x10\"",
+   "price": "$150",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 49,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_1c175f52d54349fa8dc5b5da827465a0~mv2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Asters",
+   "size": "11x30\"",
+   "price": "$600",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 50,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_6807269b67d54720ad43722d043172ed~mv2_d_4975_1803_s_2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Waterlilies",
+   "size": "15x22\"",
+   "price": "$600",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 51,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_7e8dbfb4ead04e5f94282575637faa4b~mv2_d_4228_2842_s_4_2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Green Reflections",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 52,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_76d3032d274449d6b4f21829f64ec8f4~mv2_d_3331_2382_s_2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Still Life with Teapot",
+   "size": "11x15\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 53,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_ca2670b31b1f46098ff75eb204dcbff0~mv2_d_3283_2467_s_4_2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Backyard Flowers",
+   "size": "15x11\"",
+   "price": "$300",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 54,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_568ddc2bd1e843c6a7fbcc50779fe6ce~mv2_d_2100_2817_s_2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Dorothy's garden",
+   "size": "60x40\"",
+   "price": "",
+   "status": "sold",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 55,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_cf7b45f3f70348c39491838fa7c1db17~mv2_d_2691_3985_s_4_2.jpeg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Vermillion Lakes",
+   "size": "15x22\"",
+   "price": "$600",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 56,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_912759726eac425c8fb9e9400fe8254d~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Stanley Falls",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 57,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_86fc9af109dc410b8f4ab5fff0638d68~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "The Wild Garden",
+   "size": "29x40\"",
+   "price": "$2200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 58,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_fc03b10f2de24391b2e874176680a4bc~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "MacTaggart Sanctuary",
+   "size": "7.5x10.5\"",
+   "price": "$150",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 59,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_2b3fcf1fb58a4c179bde46c2a14408e3~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Peonies by the Falls",
+   "size": "29x40\"",
+   "price": "$2200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 60,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_7fc30458fc724751aacc9580b7177fa6~mv2.jpg"
+   },
+   "featured": true
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Near Waterton Lakes",
+   "size": "15x22\"",
+   "price": "$600",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 61,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_85bdcfb30f6447f5bf3b2e648b93efb8~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Birches and Thistle",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 62,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_a7071b613f0c4763bd2df23450eb4e6f~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Canada Thistle",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 63,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_1d55b6fe6d1d4b03b0375dfc139b0810~mv2.jpg"
+   }
+  },
+  {
+   "section": "jerry/paintings",
+   "title": "Mountain Wildflowers",
+   "size": "22x30\"",
+   "price": "$1200",
+   "status": "available",
+   "details": "",
+   "medium": "Watercolour",
+   "sort": 64,
+   "published": true,
+   "image": {
+    "wix": "9f3a98_dfbd1cfff420449288118526199514a4~mv2.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Fish Platter",
+   "details": "Carved and stamped platter with three fish swimming through a blue glaze.",
+   "status": "available",
+   "medium": "",
+   "sort": 0,
+   "published": true,
+   "featured": true,
+   "image": {
+    "file": "migration/pottery/fish-platter.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Garden Bells",
+   "details": "Hanging ceramic bells in a range of glazes and textures, strung with glass beads.",
+   "status": "available",
+   "medium": "",
+   "sort": 1,
+   "published": true,
+   "featured": true,
+   "image": {
+    "file": "migration/pottery/ceramic-bells.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Blue Bowls",
+   "details": "A trio of small bowls in a deep blue glaze.",
+   "status": "available",
+   "medium": "",
+   "sort": 2,
+   "published": true,
+   "featured": false,
+   "image": {
+    "file": "migration/pottery/blue-bowls.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Fluted Mug and Textured Bowl",
+   "details": "Carved 16 oz mug ($35) shown with a textured serving bowl and a small butterfly dish.",
+   "status": "available",
+   "medium": "",
+   "sort": 3,
+   "published": true,
+   "featured": true,
+   "image": {
+    "file": "migration/pottery/fluted-mug-and-bowl.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Nourish Bowl, Mug and Lidded Jar",
+   "details": "Cream glaze over stamped floral and swirl textures.",
+   "status": "available",
+   "medium": "",
+   "sort": 4,
+   "published": true,
+   "featured": false,
+   "image": {
+    "file": "migration/pottery/nourish-set.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Green Mug and Bowl",
+   "details": "Olive green glaze with blue highlights.",
+   "status": "available",
+   "medium": "",
+   "sort": 5,
+   "published": true,
+   "featured": false,
+   "image": {
+    "file": "migration/pottery/green-mug-and-bowl.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Creamer and Sugar Bowl",
+   "details": "Pale blue glaze over pressed flower impressions.",
+   "status": "available",
+   "medium": "",
+   "sort": 6,
+   "published": true,
+   "featured": false,
+   "image": {
+    "file": "migration/pottery/creamer-and-sugar.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Blue Flower Mug",
+   "details": "Stamped daisy mug in blue with a dark amber rim.",
+   "status": "available",
+   "medium": "",
+   "sort": 7,
+   "published": true,
+   "featured": true,
+   "image": {
+    "file": "migration/pottery/blue-flower-mug.jpg"
+   }
+  },
+  {
+   "section": "brenda/pottery",
+   "title": "Plum Mugs and Square Dish",
+   "details": "Speckled plum and grey glaze.",
+   "status": "available",
+   "medium": "",
+   "sort": 8,
+   "published": true,
+   "featured": false,
+   "image": {
+    "file": "migration/pottery/plum-mugs-and-dish.jpg"
+   }
+  }
+ ],
+ "pages": [
+  {
+   "key": "home",
+   "title": "Welcome to Heine Art",
+   "body": "<p>We are a father and daughter duo who have discovered the joys of painting together. Jerry does the teaching and Brenda continues to learn and improve.</p><p>We hope you enjoy our efforts!</p>",
+   "image": {
+    "wix": "9f3a98_27db5aa56d894941b1e873d1c2c9b040~mv2_d_1811_1387_s_2.jpeg"
+   }
+  },
+  {
+   "key": "contact",
+   "title": "Get in touch",
+   "body": "<p>For inquiries about paintings, pottery, commissions or cards, email <a href=\"mailto:bheine.art@gmail.com\">bheine.art@gmail.com</a> or send a message on Instagram <a href=\"https://www.instagram.com/bheine.art/\">@bheine.art</a>.</p>",
+   "image": {
+    "wix": "9f3a98_e626477d42ba4f72bf843d661c43f8b9~mv2.jpg"
+   }
+  }
+ ],
+ "posts": [
+  {
+   "slug": "welcome-to-the-new-site",
+   "title": "Welcome to the new Heine Art",
+   "artist": null,
+   "date": "2026-10-30 12:00:00.000Z",
+   "published": false,
+   "excerpt": "An example post. Edit or delete it from the admin page, and tick Published when you're ready.",
+   "body": "<p>This is an example post to show how the journal works. Posts can have a cover image, a gallery of photos and can be linked to Brenda or Jerry.</p>"
+  }
+ ]
+}
