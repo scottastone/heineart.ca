@@ -1,5 +1,7 @@
 # heineart.ca
 
+Live at https://pottedpainter.ca.
+
 The website of Brenda and Jerry Heine: watercolours by both, and Brenda's pottery.
 
 It is a single small Docker container running [PocketBase](https://pocketbase.io):
@@ -39,13 +41,13 @@ docker run --rm --network container:heineart -v "$PWD":/work -w /work \
   node:22-alpine node migration/import.mjs
 
 # 5. nginx + HTTPS
-sudo cp deploy/nginx-heineart.conf /etc/nginx/sites-available/heineart.conf
-sudo ln -s /etc/nginx/sites-available/heineart.conf /etc/nginx/sites-enabled/
-sudo certbot --nginx -d heineart.ca -d www.heineart.ca
+sudo cp deploy/nginx-pottedpainter.conf /etc/nginx/sites-available/pottedpainter.conf
+sudo ln -s /etc/nginx/sites-available/pottedpainter.conf /etc/nginx/sites-enabled/
 sudo nginx -t && sudo systemctl reload nginx
+sudo certbot --nginx -d pottedpainter.ca -d www.pottedpainter.ca --redirect
 ```
 
-Before step 5 works, point the domain's DNS `A` (and `AAAA`) records for `heineart.ca` and `www.heineart.ca` at the VPS. If certbot complains that the certificate files in the config don't exist yet, comment out the two `443` server blocks, run certbot, then restore them.
+Before step 5 works, point the domain's DNS `A` (and `AAAA`) records for `pottedpainter.ca` and `www.pottedpainter.ca` at the VPS, and make sure ports 80 and 443 are open in the firewall.
 
 The import is safe to re-run; it skips anything already there. Once the new site is live and checked, the Wix plan can be cancelled.
 
@@ -63,7 +65,7 @@ Either copy the folder (`tar czf heineart-$(date +%F).tgz pb_data`), or use the 
 
 ## Using the admin page
 
-Go to `https://heineart.ca/_/` and log in.
+Go to `https://pottedpainter.ca/_/` and log in.
 
 | To do this | Go to | Notes |
 |---|---|---|
