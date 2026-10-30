@@ -41,7 +41,7 @@ migrate((app) => {
       image("cover", { help: "Large image used on the home page for this artist." }),
       image("wordmark", { help: "Optional logo / hand-lettered name shown instead of plain text." }),
       { name: "showcase", type: "file", maxSelect: 24, maxSize: MAX_UPLOAD, mimeTypes: IMAGE_MIMES, thumbs: THUMBS, help: "Mosaic of images shown on the artist page." },
-      { name: "accent", type: "text", max: 20, help: "Accent colour on the dark theme, e.g. #ec8a7f" },
+      { name: "accent", type: "text", max: 20, help: "Accent colour, e.g. #9b2226" },
       { name: "email", type: "email" },
       { name: "instagram", type: "url" },
       { name: "sort", type: "number" },
