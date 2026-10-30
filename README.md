@@ -34,7 +34,7 @@ docker compose up -d --build
 docker compose exec heineart /app/pocketbase superuser upsert you@example.com 'a-long-password' --dir /app/pb_data
 
 # 4. Copy the old site's content in (needs the Wix site to still be online; takes a few minutes)
-docker run --rm --network host -v "$PWD":/work -w /work \
+docker run --rm --network container:heineart -v "$PWD":/work -w /work \
   -e PB_URL=http://127.0.0.1:8090 -e PB_EMAIL=you@example.com -e PB_PASSWORD='a-long-password' \
   node:22-alpine node migration/import.mjs
 
