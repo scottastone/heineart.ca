@@ -27,7 +27,7 @@ You need Docker (with the compose plugin), nginx and certbot.
 
 ```sh
 # 1. Get the code
-git clone <this repo> /opt/heineart && cd /opt/heineart
+git clone https://github.com/scottastone/heineart.ca ~/docker/heineart.ca && cd ~/docker/heineart.ca
 
 # 2. Build and start the container (listens on 127.0.0.1:8090 only)
 docker compose up -d --build
@@ -40,21 +40,21 @@ docker run --rm --network container:heineart -v "$PWD":/work -w /work \
   -e PB_URL=http://127.0.0.1:8090 -e PB_EMAIL=you@example.com -e PB_PASSWORD='a-long-password' \
   node:22-alpine node migration/import.mjs
 
-# 5. nginx + HTTPS
-sudo cp deploy/nginx-pottedpainter.conf /etc/nginx/sites-available/pottedpainter.conf
-sudo ln -s /etc/nginx/sites-available/pottedpainter.conf /etc/nginx/sites-enabled/
+# 5. nginx + HTTPS. Get the certificate first (certonly never edits nginx files),
+#    then point nginx at the config in this folder with a symlink.
+sudo certbot certonly --nginx -d pottedpainter.ca -d www.pottedpainter.ca
+sudo ln -s "$PWD/deploy/nginx-pottedpainter.conf" /etc/nginx/sites-enabled/pottedpainter.conf
 sudo nginx -t && sudo systemctl reload nginx
-sudo certbot --nginx -d pottedpainter.ca -d www.pottedpainter.ca --redirect
 ```
 
-Before step 5 works, point the domain's DNS `A` (and `AAAA`) records for `pottedpainter.ca` and `www.pottedpainter.ca` at the VPS, and make sure ports 80 and 443 are open in the firewall.
+Before step 5 works, point the domain's DNS `A` (and `AAAA`) records for `pottedpainter.ca` and `www.pottedpainter.ca` at the VPS, and make sure ports 80 and 443 are open in the firewall. Certbot renews the certificate on its own; `sudo certbot renew --dry-run` checks that renewal works.
 
 The import is safe to re-run; it skips anything already there. Once the new site is live and checked, the Wix plan can be cancelled.
 
 ## Updating the site
 
 ```sh
-cd /opt/heineart && ./deploy/deploy.sh
+cd ~/docker/heineart.ca && ./deploy/deploy.sh
 ```
 
 Content changes made in the admin page are stored in `pb_data` and survive rebuilds.
