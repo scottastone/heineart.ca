@@ -5,7 +5,7 @@
    "name": "Brenda Heine",
    "tagline": "Watercolours & pottery",
    "bio": "<p>Despite having a father who is an accomplished artist, Brenda somehow went most of her life without ever picking up a pencil or paintbrush. Instead, she went the academic route, got her MD and was quite content with her medical practice and raising her family.</p>\n<p>This changed in late 2015 when she was introduced to watercolour. It was quite by accident and there certainly was no intent to actually paint. However, she was immediately captivated by the colours and the way the pigment moved on the paper. She has been painting and learning ever since. She has participated in solo and group shows and has even won a few awards for her paintings.</p>\n<p>But the very best part is the fact that she gets to share this passion and continue to learn from her dear dad.</p>",
-   "accent": "#9b2226",
+   "accent": "#ec8a7f",
    "email": "bheine.art@gmail.com",
    "instagram": "https://www.instagram.com/bheine.art/",
    "sort": 1,
@@ -50,7 +50,7 @@
    "name": "Jerry Heine",
    "tagline": "Artist Emeritus · Watercolour",
    "bio": "<p>An artist’s artist, Jerry Heine has mentored many Alberta artists through his work at the University of Alberta, Faculty of Extension Art Diploma Program.</p>\n<p>He studied art at the University of Alberta, graphic art at NAIT and at the Washington School of Art. He was an instructor with the Faculty of Extension from 1989 to 2016, and has had over 35 solo art exhibitions, both nationally and internationally. He has signature status with several art groups, including the North West Watercolor Society of U.S.A. Jerry has also curated art exhibitions, taught community art workshops, engaged in art critiques, and adjudicated and selected art for a variety of art clubs and schools across Alberta. Until just recently, he was represented in Alberta by the Bugera Matheson Gallery in Edmonton and the Mountain Gallery in Jasper.</p>",
-   "accent": "#2c4a6e",
+   "accent": "#93b8e0",
    "email": "bheine.art@gmail.com",
    "sort": 2,
    "cover": {
@@ -111,14 +111,6 @@
   },
   {
    "artist": "brenda",
-   "slug": "mosaics",
-   "title": "Mosaics",
-   "sort": 4,
-   "published": true,
-   "intro": "<p>Stained glass and tesserae mosaics, several based on original paintings by Jerry Heine.</p>"
-  },
-  {
-   "artist": "brenda",
    "slug": "art-cards",
    "title": "Art Cards",
    "sort": 5,
@@ -147,8 +139,7 @@
    "published": true,
    "image": {
     "wix": "9f3a98_ef0b6b950c71467fae795bfbeca1d882~mv2.jpg"
-   },
-   "featured": true
+   }
   },
   {
    "section": "brenda/watercolours",
@@ -190,8 +181,7 @@
    "published": true,
    "image": {
     "wix": "9f3a98_2cf8d0027f134b37ab92e4a96d4ae3f9~mv2.jpg"
-   },
-   "featured": true
+   }
   },
   {
    "section": "brenda/watercolours",
@@ -597,8 +587,7 @@
    "published": true,
    "image": {
     "wix": "9f3a98_e7069760d3f24cd6adb4b895f8889fff~mv2.jpeg"
-   },
-   "featured": true
+   }
   },
   {
    "section": "brenda/watercolours",
@@ -1245,76 +1234,6 @@
    }
   },
   {
-   "section": "brenda/mosaics",
-   "title": "Alpine Lake",
-   "size": "",
-   "price": "",
-   "status": "available",
-   "details": "Stained glass and tesserae mosaic. 24x32\", framed. $845 Based on an original painting by Jerry Heine",
-   "medium": "",
-   "sort": 0,
-   "published": true,
-   "image": {
-    "wix": "9f3a98_84598124094e4ee69d389ff5529f3883~mv2.jpg"
-   }
-  },
-  {
-   "section": "brenda/mosaics",
-   "title": "Garden Plant Pillar",
-   "size": "",
-   "price": "",
-   "status": "available",
-   "details": "Stained glass and tesserae mosaic on plaster pillar. 35\" tall, 11' diameter $250",
-   "medium": "",
-   "sort": 1,
-   "published": true,
-   "image": {
-    "wix": "9f3a98_6ca0dd1dfddf49a9817bf39b165acca2~mv2.jpg"
-   }
-  },
-  {
-   "section": "brenda/mosaics",
-   "title": "Colours of the Rainbow",
-   "size": "12.5x35\"",
-   "price": "",
-   "status": "sold",
-   "details": "",
-   "medium": "",
-   "sort": 2,
-   "published": true,
-   "image": {
-    "wix": "9f3a98_59065b474f874c44881905ca49222bde~mv2.jpeg"
-   }
-  },
-  {
-   "section": "brenda/mosaics",
-   "title": "Autumn in the Mountains",
-   "size": "",
-   "price": "",
-   "status": "available",
-   "details": "Stained glass and tesserae mosaic. 26x36\", framed. $990 Based on an original painting by Jerry Heine",
-   "medium": "",
-   "sort": 3,
-   "published": true,
-   "image": {
-    "wix": "9f3a98_0cd1772eccaa47abb7f94cd975b9a2ec~mv2.jpeg"
-   }
-  },
-  {
-   "section": "brenda/mosaics",
-   "title": "Sunflowers",
-   "size": "",
-   "price": "",
-   "status": "sold",
-   "details": "Stained glass and tesserae mosiac. 60x12\", framed. Based on an original painting by Jerry Heine",
-   "medium": "",
-   "sort": 4,
-   "published": true,
-   "image": {
-    "wix": "9f3a98_1dd5ca34fff54ee9a3973617bc56a7dd~mv2.jpeg"
-   }
-  },
-  {
    "section": "brenda/art-cards",
    "title": "Tulips",
    "size": "",
@@ -1718,8 +1637,7 @@
    "published": true,
    "image": {
     "wix": "9f3a98_aa27aa0dcdc94db0a27a2d3a2752d15f~mv2.jpg"
-   },
-   "featured": true
+   }
   },
   {
    "section": "jerry/paintings",
@@ -1957,8 +1875,7 @@
    "published": true,
    "image": {
     "wix": "9f3a98_02267d47849a445d873c0489d66c0f0e~mv2.jpeg"
-   },
-   "featured": true
+   }
   },
   {
    "section": "jerry/paintings",
@@ -2182,8 +2099,7 @@
    "published": true,
    "image": {
     "wix": "9f3a98_45474432fc1141feae1033ec1f4637d2~mv2.jpg"
-   },
-   "featured": true
+   }
   },
   {
    "section": "jerry/paintings",
@@ -2547,8 +2463,7 @@
    "published": true,
    "image": {
     "wix": "9f3a98_7fc30458fc724751aacc9580b7177fa6~mv2.jpg"
-   },
-   "featured": true
+   }
   },
   {
    "section": "jerry/paintings",
@@ -2614,7 +2529,6 @@
    "medium": "",
    "sort": 0,
    "published": true,
-   "featured": true,
    "image": {
     "file": "migration/pottery/fish-platter.jpg"
    }
@@ -2627,7 +2541,6 @@
    "medium": "",
    "sort": 1,
    "published": true,
-   "featured": true,
    "image": {
     "file": "migration/pottery/ceramic-bells.jpg"
    }
@@ -2640,7 +2553,6 @@
    "medium": "",
    "sort": 2,
    "published": true,
-   "featured": false,
    "image": {
     "file": "migration/pottery/blue-bowls.jpg"
    }
@@ -2653,7 +2565,6 @@
    "medium": "",
    "sort": 3,
    "published": true,
-   "featured": true,
    "image": {
     "file": "migration/pottery/fluted-mug-and-bowl.jpg"
    }
@@ -2666,7 +2577,6 @@
    "medium": "",
    "sort": 4,
    "published": true,
-   "featured": false,
    "image": {
     "file": "migration/pottery/nourish-set.jpg"
    }
@@ -2679,7 +2589,6 @@
    "medium": "",
    "sort": 5,
    "published": true,
-   "featured": false,
    "image": {
     "file": "migration/pottery/green-mug-and-bowl.jpg"
    }
@@ -2692,7 +2601,6 @@
    "medium": "",
    "sort": 6,
    "published": true,
-   "featured": false,
    "image": {
     "file": "migration/pottery/creamer-and-sugar.jpg"
    }
@@ -2705,7 +2613,6 @@
    "medium": "",
    "sort": 7,
    "published": true,
-   "featured": true,
    "image": {
     "file": "migration/pottery/blue-flower-mug.jpg"
    }
@@ -2718,7 +2625,6 @@
    "medium": "",
    "sort": 8,
    "published": true,
-   "featured": false,
    "image": {
     "file": "migration/pottery/plum-mugs-and-dish.jpg"
    }

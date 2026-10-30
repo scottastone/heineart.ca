@@ -25,7 +25,6 @@ const sections = () => list("sections", { sort: "sort", expand: "artist" });
 const pages = () => list("pages");
 const posts = () => list("posts", { sort: "-date", expand: "artist" });
 const artworksIn = (sectionId) => list("artworks", { filter: `section="${sectionId}"`, sort: "sort,created" });
-const featured = () => list("artworks", { filter: "featured=true", sort: "sort", expand: "section,section.artist" });
 
 function fileUrl(record, filename, thumb) {
   if (!filename) return "";
@@ -55,7 +54,9 @@ function setMeta(title, description) {
 }
 
 function accentFor(artist) {
-  document.documentElement.style.setProperty("--accent", artist?.accent || "var(--ink)");
+  const root = document.documentElement.style;
+  if (artist?.accent) root.setProperty("--accent", artist.accent);
+  else root.removeProperty("--accent");
 }
 
 function priceLine(a) {
@@ -74,11 +75,8 @@ const fmtDate = (d) => new Date(d.replace(" ", "T")).toLocaleDateString("en-CA",
 // ---------------------------------------------------------------- views
 
 async function viewHome() {
-  const [as, ps, feat, secs, blog] = await Promise.all([artists(), pages(), featured(), sections(), posts()]);
+  const [as, ps, blog] = await Promise.all([artists(), pages(), posts()]);
   const home = ps.find((p) => p.key === "home") || {};
-  const pottery = secs.find((s) => s.slug === "pottery");
-  const potteryPieces = feat.filter((a) => a.section === pottery?.id).slice(0, 4);
-  const paintings = feat.filter((a) => a.section !== pottery?.id).slice(0, 4);
   accentFor(null);
   setMeta("", stripHtml(home.body));
 
@@ -105,35 +103,6 @@ async function viewHome() {
         <figcaption>Brenda and Jerry</figcaption></figure>` : ""}
     </section>
 
-    ${pottery ? `
-    <section class="band">
-      <div class="wrap">
-        <div class="band-head">
-          <div>
-            <p class="eyebrow">New from Brenda</p>
-            ${pottery.wordmark ? `<img class="wordmark" src="${fileUrl(pottery, pottery.wordmark)}" alt="Brenda Heine Pottery" width="560">` : `<h2>Pottery</h2>`}
-          </div>
-          <a class="btn arrow" href="${sectionPath(pottery)}" data-link>See the pottery</a>
-        </div>
-        <div class="strip">
-          ${potteryPieces.map((a) => `<a href="${sectionPath(pottery)}?piece=${a.id}" data-link>${img(a, a.image, { sizes: "(max-width: 860px) 50vw, 25vw", alt: a.title })}<span>${esc(a.title)}</span></a>`).join("")}
-        </div>
-      </div>
-    </section>` : ""}
-
-    ${paintings.length ? `
-    <section class="wrap section-block">
-      <div class="band-head">
-        <div><p class="eyebrow">From the studio</p><h2>Selected paintings</h2></div>
-      </div>
-      <div class="strip">
-        ${paintings.map((a) => {
-          const s = a.expand?.section;
-          return `<a href="/${s?.expand?.artist?.slug}/${s?.slug}?piece=${a.id}" data-link>${img(a, a.image, { sizes: "(max-width: 860px) 50vw, 25vw", alt: a.title })}<span>${esc(a.title)}</span></a>`;
-        }).join("")}
-      </div>
-    </section>` : ""}
-
     ${blog.length ? `
     <section class="wrap section-block">
       <div class="band-head"><div><p class="eyebrow">Journal</p><h2>Latest news</h2></div><a class="btn arrow" href="/journal" data-link>All posts</a></div>
@@ -158,10 +127,9 @@ async function viewArtist(slug) {
     const coverFile = s.cover ? s.cover : pieces?.[0]?.image;
     const count = pieces ? `${pieces.length} piece${pieces.length === 1 ? "" : "s"}` : "";
     return `
-      <a class="section-card ${i === 0 && mine.length > 2 ? "feature" : ""}" href="/${slug}/${s.slug}" data-link>
-        <div class="img">${coverRec ? img(coverRec, coverFile, { sizes: "(max-width: 640px) 100vw, 50vw", alt: s.title }) : ""}</div>
-        <h3>${esc(s.title)}</h3>
-        <p>${count || "View gallery"}</p>
+      <a class="section-card" href="/${slug}/${s.slug}" data-link>
+        <div class="img">${coverRec ? img(coverRec, coverFile, { sizes: "(max-width: 560px) 100vw, 50vw", alt: s.title }) : ""}</div>
+        <div class="body"><h3>${esc(s.title)}</h3><p>${count || "View gallery"}</p></div>
       </a>`;
   }).join("");
 
@@ -170,7 +138,7 @@ async function viewArtist(slug) {
   const html = `
     <section class="wrap artist-hero">
       ${artist.wordmark
-        ? `<h1><img class="wordmark" src="${fileUrl(artist, artist.wordmark)}" alt="${esc(artist.name)}" width="620"></h1>`
+        ? `<h1><span class="wordmark-card"><img src="${fileUrl(artist, artist.wordmark)}" alt="${esc(artist.name)}" width="520"></span></h1>`
         : `<h1>${esc(artist.name)}</h1>`}
       <p class="tagline">${esc(artist.tagline)}</p>
     </section>
@@ -210,7 +178,7 @@ async function viewSection(artistSlug, sectionSlug, params) {
       <p class="crumbs"><a href="/${artist.slug}" data-link>${esc(artist.name)}</a> / ${esc(section.title)}</p>
       <header class="section-head">
         ${section.wordmark
-          ? `<h1><img class="wordmark" src="${fileUrl(section, section.wordmark)}" alt="${esc(`${artist.name} ${section.title}`)}" width="720"></h1>`
+          ? `<h1><span class="wordmark-card"><img src="${fileUrl(section, section.wordmark)}" alt="${esc(`${artist.name} ${section.title}`)}" width="620"></span></h1>`
           : `<h1>${esc(section.title)}</h1>`}
         ${section.intro ? `<div class="prose">${section.intro}</div>` : ""}
         ${section.pricing_note ? `<p class="note">${esc(section.pricing_note)}</p>` : ""}
@@ -260,9 +228,11 @@ function postCard(p) {
   return `
     <a class="post-card" href="/journal/${p.slug}" data-link>
       <div class="img">${p.cover ? img(p, p.cover, { sizes: "(max-width: 700px) 100vw, 33vw", alt: p.title }) : ""}</div>
-      <time datetime="${esc(p.date)}">${fmtDate(p.date)}</time>
-      <h3>${esc(p.title)}</h3>
-      ${p.excerpt ? `<p class="muted">${esc(p.excerpt)}</p>` : ""}
+      <div class="body">
+        <time datetime="${esc(p.date)}">${fmtDate(p.date)}</time>
+        <h3>${esc(p.title)}</h3>
+        ${p.excerpt ? `<p class="muted">${esc(p.excerpt)}</p>` : ""}
+      </div>
     </a>`;
 }
 
@@ -303,7 +273,7 @@ async function viewPost(slug) {
 async function viewContact() {
   const ps = await pages();
   const c = ps.find((p) => p.key === "contact") || {};
-  accentFor({ accent: "#9b2226" });
+  accentFor(null);
   setMeta("Contact", "Get in touch about paintings, pottery, commissions and art cards.");
   return `
     <section class="wrap contact">

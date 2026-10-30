@@ -4,7 +4,7 @@ The website of Brenda and Jerry Heine: watercolours by both, and Brenda's potter
 
 It is a single small Docker container running [PocketBase](https://pocketbase.io):
 
-- **Public site** at `/`: a gallery-first front end (`pb_public/`) with an arm for each artist, galleries, a lightbox, a pottery section, a journal and a contact page.
+- **Public site** at `/`: a gallery-first front end (`pb_public/`) with a separate arm for each artist, galleries, a lightbox, a pottery section, a journal and a contact page.
 - **Admin page** at `/_/`: log in to add or edit artwork, pottery, posts and page text, and upload photos.
 - **Data** (database + uploaded images) lives in `./pb_data` on the server. That folder is the only thing to back up.
 
@@ -69,7 +69,6 @@ Go to `https://heineart.ca/_/` and log in.
 |---|---|---|
 | Add a painting or pottery piece | **artworks → New record** | Pick its **section** (e.g. Brenda › Pottery), upload the **image**, tick **published**. Extra photos go in **more_images**. |
 | Mark something sold | the artwork → **status** | `sold` shows a badge; `not_for_sale` hides the inquiry button. |
-| Show a piece on the home page | the artwork → **featured** | Featured pottery appears in the pottery band; featured paintings in "Selected paintings". |
 | Change order | **sort** | Lower numbers come first. |
 | Write a news post | **posts → New record** | Tick **published**. The Journal menu link appears once there is a published post. An unpublished example post is included. |
 | Edit bios, taglines, wordmarks | **artists** | |
