@@ -12,7 +12,6 @@ It is a single small Docker container running [PocketBase](https://pocketbase.io
 
 ```
 Dockerfile, docker-compose.yml   container build and run
-deploy/nginx-heineart.conf       nginx reverse-proxy config
 deploy/deploy.sh                 pull + rebuild + restart
 server/                          PocketBase build (version pinned in go.mod)
 pb_migrations/                   database schema
@@ -27,7 +26,7 @@ You need Docker with the compose plugin.
 
 ```sh
 # 1. Get the code
-git clone https://github.com/scottastone/heineart.ca ~/docker/heineart.ca && cd ~/docker/heineart.ca
+git clone https://github.com/scottastone/heineart.ca ~/docker/websites/heineart.ca && cd ~/docker/websites/heineart.ca
 
 # 2. Build and start the container (listens on 127.0.0.1:8090 only)
 docker compose up -d --build
@@ -41,20 +40,14 @@ docker run --rm --network container:heineart -v "$PWD":/work -w /work \
   node:22-alpine node migration/import.mjs
 ```
 
-Public traffic for `pottedpainter.ca` goes through Cloudflare to the nginx in the [scottstone.ca site](https://github.com/scottastone/scottastone.github.io), which owns ports 80/443 on this server and proxies to this container over the shared `web` Docker network. That network is created by the scottstone.ca compose file, so bring that site up first.
-
-To set up the domain:
-
-1. In Cloudflare, add `pottedpainter.ca`, set DNS `A` records for `@` and `www` to the server's IP (proxied, orange cloud), and set **SSL/TLS** to **Full (strict)**.
-2. Under **SSL/TLS → Origin Server**, create an origin certificate for `pottedpainter.ca, *.pottedpainter.ca`. Save it on the server in the scottstone.ca folder as `certs/pottedpainter/origin.pem` and the key as `certs/pottedpainter/origin.key`, and make both readable (`chmod 644`), since nginx's worker process loads them.
-3. In the scottstone.ca folder: `git pull && docker compose up -d --build`. Then here: `docker compose up -d`.
+Public traffic for `pottedpainter.ca` goes through Cloudflare to the server's shared reverse proxy in `~/docker/websites/proxy`, which owns ports 80/443 and the Cloudflare Origin Certificates and reaches this container as `http://heineart:8090` over the `web` Docker network. Its config is `conf.d/pottedpainter.ca.conf` and its certificate is `certs/pottedpainter.ca/origin.pem` and `origin.key` in that folder. The `web` network is created once with `docker network create web`.
 
 The import is safe to re-run; it skips anything already there. Once the new site is live and checked, the Wix plan can be cancelled.
 
 ## Updating the site
 
 ```sh
-cd ~/docker/heineart.ca && ./deploy/deploy.sh
+cd ~/docker/websites/heineart.ca && ./deploy/deploy.sh
 ```
 
 Content changes made in the admin page are stored in `pb_data` and survive rebuilds.
